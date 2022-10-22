@@ -1,0 +1,108 @@
+body{ 
+background-image: url ('fundo_branco.webp');
+background-repeat: no-repeat ;
+ background-size:cover;
+
+
+font-size: 25px ;
+}
+
+h1 { 
+ color:black;
+}
+
+p { 
+text-align:center;
+font-size: 20px ;
+font-family:arial;
+background-color:#2F4F4F;
+}
+#carrousel p:hover {
+	background-color:#008080;
+}
+
+#carrousel {
+	background-color:#2F4F4F;
+	background-size:cover;
+}
+#cabecalho{ 
+ background-image: url('ahri.jpg');
+ background-repeat: no-repeat;
+ background-size:1600px 640px;
+ background-color:black;
+ border:8px solid #4B0082 ;
+ }
+
+ 
+ h4 {
+	color: black;
+}	
+
+h2 {
+	color: white;	
+	font-size: 25px ;
+}
+
+li {
+ color:#00008B;
+ 
+}
+#menu {
+ background-color: #4682B4 ;
+ height:80px ;
+
+}
+#menu ul{
+	list-style-type:none; /*tira os pontinhos*/ 
+	text-align:center ; /*centraliza os itens do menu*/
+	line-height:70px ; 
+	
+}
+
+#menu li{
+	display:inline;
+	border:2px solid black;
+	margin-right:40px; /*faz uma separação no menu*/
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	border-radius:60px;
+	background-color: white;
+	}
+
+#menu a{
+   color:#2F4F4F ; 
+   text-decoration:none ;
+}   
+
+#menu li:hover {
+	background-color:#40E0D0;
+}
+
+
+#conteudo {	
+	display:grid;
+	grid-template-columns:30% 20% 30% 20%	;
+	margin-right:2%;
+	margin-left:2%;
+
+	}
+	
+#h4 {
+ font-family:ariel ;
+}
+
+#carrousel{
+	display:grid;
+	grid-template-columns: 19.2% 19.2% 19.2% 19.2% 19.2%;
+	grid-gap:1%;
+	
+}
+
+#carrousel img {
+	width:100%;
+	height:100%; 
+	}	
+	
+	
